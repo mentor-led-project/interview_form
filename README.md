@@ -1,33 +1,37 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Interview Form App
 
-First, run the development server:
+A simple web application built with Next.js and Firebase to create and manage interview forms. The form includes fields for interview title, description, and dynamic lists of questions that can be added or removed.
+
+### Tech Stack
+
+- Next.js (with TypeScript)
+- React
+- Firebase Firestore
+- External CSS
+
+#### Features
+
+- Create new interviews with a title, description, and any number of questions.
+- Dynamically add or remove questions.
+- Store interview data in Firebase Firestore.
+- Show success and error messages upon submission.
+
+##### Installation
+
+1. Clone repository:
 
 ```bash
+git clone https://github.com/mentor-led-project/interview_form.gitgit
+cd interview-form
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Note: If you're getting started with firebase in a Next.js project** [Checkout this YouTube channel, it was helpful](https://youtu.be/5MzCK3k3XlQ?si=42LKbpqdOz7eIlr1)
 
 ## Deploy on Vercel
 
